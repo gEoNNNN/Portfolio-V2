@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.text {
+    margin-top: 20vh;
+    margin-left: 35vh;
+}
+
+.text h1 {
+    font-family: 'Jersey 10';
+    letter-spacing: 4px;
+    font-size: 6vh;
+    margin: 0;
+}
+
+.hi{
+ color: white;
+}
+
+.iam {
+    color: white;
+}
+
+.emoji{
+    position: absolute;
+}
+
+.developer{
+    color: #8C5AF5;
+}
+
+.cv button {
+    margin-top: 3vh;
+    margin-left: 35vh;
+    background-color: #8C5AF5;
+    border: none;
+    color: white;
+    font-family: 'Jersey 10';
+    letter-spacing: 2px;
+    padding: 2vh 3vh;
+    font-size: 2.5vh;
+    border-radius: 10vh;
+}
