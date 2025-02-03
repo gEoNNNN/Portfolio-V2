@@ -2,6 +2,7 @@ import '../../src/pages/aboutme.scss'
 import me from "./../assets/photo_2025-02-02_12-31-01.jpg"
 
 function About() {
+  
   return (
     <div className='main'>
         <div className='title'>

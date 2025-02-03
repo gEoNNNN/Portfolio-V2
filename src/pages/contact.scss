@@ -1,0 +1,18 @@
+.contact button {
+    border: none;
+    color: white;
+    font-family: 'Jersey 10';
+    letter-spacing: 2px;
+    padding: 3vh 35vh;
+    font-size: 4vh;
+    background-color: #171717;
+    justify-content: center;
+    display: flex;
+    margin-left: 50vh;
+    margin-bottom: 10vh;
+}
+
+.contact button :hover {
+    transform: scale(1.1); 
+    transition: all .2s ease-in-out;
+}

@@ -6,6 +6,7 @@
     position: fixed; 
     top: 0;
     width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top */
 }
 
 .menu ul {
@@ -25,7 +26,14 @@
     color: white;
     text-align: center;
     padding: 30px;
-    text-decoration: none;
+    text-decoration: none; /* Remove text decoration for the li */
+    transition: all 0.2s ease-in-out; /* Add transition for smooth animation */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.menu li a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit the color from the parent (li) */
 }
 
 .signature {
@@ -36,4 +44,9 @@
     letter-spacing: 6px;
     margin-left: 10vh;
     margin-top: -11vh;
+}
+
+.menu li:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    color: #8C5AF5; /* Change color on hover */
 }

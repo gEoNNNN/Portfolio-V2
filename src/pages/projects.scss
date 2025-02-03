@@ -1,9 +1,60 @@
 .card {
-    width: 192px;
-    height: 108px;
+    width: 400px;
+    height: 225px;
     border-radius: 30px;
     background: #212121;
-    box-shadow: 15px 15px 30px rgb(25, 25, 25),
-                -15px -15px 30px rgb(60, 60, 60);
-   }
-   
+    box-shadow: 15px 15px 30px rgb(51, 30, 96),
+                -15px -15px 30px rgb(140, 90, 245);
+}
+
+.mylatest {
+    margin-top: 35vh;
+    font-family: 'Jersey 10';
+    color: white;
+    font-size: 6vh;
+    letter-spacing: 4px;
+    margin-left: 35vh;
+}
+
+.projects ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 15vw;
+    margin-top: 15vh;
+}
+
+.projects li {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: larger;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.card h1 {
+    margin-right: 10vw;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 3vh;
+    margin-top: -2vh;
+}
+.card p {
+    font-size: 3vh;
+    margin-right: 17vw;
+    padding-top: 1vh;
+}
+
+.card h2 {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 1.9vh;
+    text-wrap: wrap;
+    text-align: left;
+    margin-left: 1vw;
+}
