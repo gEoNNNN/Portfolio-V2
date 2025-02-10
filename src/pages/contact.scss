@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 100vh;
+    height: 40vh;
 }
 .contact button {
     border: none;
@@ -25,6 +25,7 @@
 @media only screen and (max-width: 1000px) {
     /* styles for devices with a maximum screen width of 1000px */
     .contact button {
-        padding: 3vh 17vw;
+        padding: 1vh 10vw;
+        font-size: 7vw;
     }
 }
