@@ -1,18 +1,30 @@
+.contact {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
 .contact button {
     border: none;
     color: white;
     font-family: 'Jersey 10';
     letter-spacing: 2px;
-    padding: 3vh 35vh;
+    padding: 3vh 17vw;
     font-size: 4vh;
     background-color: #171717;
     justify-content: center;
     display: flex;
-    margin-left: 50vh;
-    margin-bottom: 10vh;
+    text-wrap: nowrap;
 }
 
 .contact button :hover {
     transform: scale(1.1); 
     transition: all .2s ease-in-out;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* styles for devices with a maximum screen width of 1000px */
+    .contact button {
+        padding: 3vh 17vw;
+    }
 }

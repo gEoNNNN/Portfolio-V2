@@ -2,14 +2,15 @@
 
 .text {
     margin-top: 30vh;
-    margin-left: 35vh;
+    margin-left: 17vw;
+    text-wrap: nowrap;
 }
 
 .text h1 {
     font-family: 'Jersey 10';
     letter-spacing: 4px;
-    font-size: 6vh;
-    margin: 0;
+    font-size: 4vw;
+    margin: 1vh;
 }
 
 .hi{
@@ -30,7 +31,7 @@
 
 .cv button {
     margin-top: 3vh;
-    margin-left: 35vh;
+    margin-left: 17vw;
     background-color: #8C5AF5;
     border: none;
     color: white;
@@ -39,4 +40,45 @@
     padding: 2vh 3vh;
     font-size: 2.5vh;
     border-radius: 10vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* styles for devices with a maximum screen width of 1000px */
+    .text h1 {
+        font-size: 7vw;
+        margin: 1vh;
+    }
+    .cv button {
+        margin-top: 3vh;
+        margin-left: 17vw;
+        background-color: #8C5AF5;
+        border: none;
+        color: white;
+        font-family: 'Jersey 10';
+        letter-spacing: 2px;
+        padding: 2vw 3vw;
+        font-size: 4vw;
+        border-radius: 10vh;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .text {
+        margin-left: 0vw;
+        text-wrap: nowrap;
+    }
+    .cv button {
+        margin-left: 0vw;
+        padding: 1vh 2vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .text {
+        margin-left: 5vw;
+        text-wrap: nowrap;
+    }
+    .cv button {
+        margin-left: 5vw;
+        padding: 1vh 2vh;
+    }
 }
