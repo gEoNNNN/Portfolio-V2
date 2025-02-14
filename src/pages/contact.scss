@@ -1,9 +1,14 @@
 .contact {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     height: 40vh;
+    flex-direction: column; /* Ensures vertical alignment */
+    margin-top: 20px; /* Optional: Adds space between contact and socials */
+    width: 100%; /* Ensure full-width layout to prevent shifting */
+    box-sizing: border-box; /* Prevent any width issues from padding */
 }
+
 .contact button {
     border: none;
     color: white;
@@ -15,17 +20,62 @@
     justify-content: center;
     display: flex;
     text-wrap: nowrap;
-}
-
-.contact button :hover {
-    transform: scale(1.1); 
     transition: all .2s ease-in-out;
 }
 
+.contact button:hover {
+    transform: scale(1.1);
+}
+
+.socials {
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+    margin-top: 10vh; 
+}
+
+.socials ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+}
+
+.socials li {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 1vw;
+    color: white;
+    padding: 15px; 
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.socials li:hover {
+    transform: scale(1.1);
+    color: #8C5AF5;
+}
+
 @media only screen and (max-width: 1000px) {
-    /* styles for devices with a maximum screen width of 1000px */
+    /* Responsive styles */
     .contact button {
         padding: 1vh 10vw;
         font-size: 7vw;
+    }
+
+    .socials ul {
+        flex-direction: row; 
+        gap: 10px;
+    }
+    .socials li {
+        font-size: 2vw;
     }
 }

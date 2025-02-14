@@ -42,11 +42,17 @@
     border-radius: 10vh;
 }
 
+.cv button:hover {
+    transform: scale(1.2); 
+    transition: all .2s ease-in-out;
+}
+
 @media only screen and (max-width: 1000px) {
     /* styles for devices with a maximum screen width of 1000px */
     .text h1 {
         font-size: 7vw;
         margin: 1vh;
+        letter-spacing: 2px;
     }
     .cv button {
         margin-top: 3vh;

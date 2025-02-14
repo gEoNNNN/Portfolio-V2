@@ -9,9 +9,9 @@ function About() {
             <p>A few words about <span className="highlight">me</span> </p>
         </div>
         <div className='description'>
-            <pre>I'm Eugen, a web developer based in Chisinau (moldova), specializing in front-end and UI/UX design. I'm currently working at Groupe Adonis as a front-end developer. </pre>
-            <pre>Passionate about the web and new technologies, I love learning and discovering new things. I also enjoy interface design and user experience. I like to create simple, intuitive interfaces that I can then develop further.</pre>
-            <pre>I'm currently seeking a 6-month internship as part of the Erasmus+ program to enhance my skills and contribute to innovative projects in a dynamic international environment. Feel free to contact me if you'd like to discuss potential opportunities or collaborations.</pre>
+            <pre>Hi, I’m Eugen, a front-end developer based in Chisinau, Moldova, specializing in building user-friendly apps and web pages. I’m currently studying Software Development at the Faculty of Computers, Informatics, and Microelectronics (FAF) at the Technical University of Moldova. </pre>
+            <pre>Passionate about the web and emerging technologies, I’m always eager to learn, explore, and grow. I enjoy creating simple, intuitive interfaces that can evolve into more sophisticated solutions over time. While I may not be the best in the field yet, I bring motivation, intelligence, and a willingness to learn anything that can enhance my career.</pre>
+            <pre>I’m currently seeking an internship to further develop my skills and contribute to innovative projects in a dynamic, international environment. If you’d like to discuss potential opportunities or collaborations, feel free to contact me!</pre>
         </div>
         <img src={me} />
     </div>

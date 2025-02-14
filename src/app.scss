@@ -2,7 +2,7 @@ body {
     background-color: #131313;
 }
 .aboutpage {
-    margin-top: 1vh;
+    margin-top: -11vh;
 }
 
 .projectspage {
@@ -10,5 +10,15 @@ body {
 }
 
 .contactpage {
-    margin-top: 0vh;
+    margin-top: 20vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* styles for devices with a maximum screen width of 1000px */
+    .aboutpage {
+        margin-top: vh;
+    }
+    .contactpage {
+        margin-top: 30vh;
+    }
 }

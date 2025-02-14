@@ -1,7 +1,7 @@
 .card {
     width: 21vw;
     height: 11.8vw;
-    border-radius: 3vw;
+    border-radius: 2vw;
     background: #212121;
     box-shadow: 15px 15px 30px rgb(51, 30, 96),
                 -15px -15px 30px rgb(140, 90, 245);
@@ -76,32 +76,32 @@
     place-items: center;
     }
     .card {
-    width: 50vw;
-    height: 25vw;
+    width: 70vw;
+    height: 40vw;
     }
 
     .card h1 {
-        margin-right: 30vw;
+        margin-right: 40vw;
         color: white;
         font-family: 'Open Sans';
         font-weight: 400;
-        font-size: 3vw;
-        margin-top: -2vh;
+        font-size: 4vw;
+        margin-top: -1vh;
     }
     .card p {
-        font-size: 3vw;
-        margin-right: 43vw;
-        padding-top: 1vh;
+        font-size: 4vw;
+        margin-right: 58vw;
+        padding-top: 1.5vh;
     }
     
     .card h2 {
         color: white;
         font-family: 'Open Sans';
         font-weight: 100;
-        font-size: 2vw;
+        font-size: 3vw;
         text-wrap: wrap;
         text-align: left;
-        margin-left: 1vw;
+        margin-left: 3vw;
         margin-right: 1vw;
     }
     

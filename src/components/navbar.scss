@@ -26,14 +26,14 @@
     color: white;
     text-align: center;
     padding: 30px;
-    text-decoration: none; /* Remove text decoration for the li */
-    transition: all 0.2s ease-in-out; /* Add transition for smooth animation */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    text-decoration: none; 
+    transition: all 0.2s ease-in-out;
+    cursor: pointer; 
 }
 
 .menu li a {
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Inherit the color from the parent (li) */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .signature {
@@ -47,8 +47,8 @@
 }
 
 .menu li:hover {
-    transform: scale(1.1); /* Scale up on hover */
-    color: #8C5AF5; /* Change color on hover */
+    transform: scale(1.1); 
+    color: #8C5AF5; 
 }
 @media only screen and (max-width: 1000px) {
     /* styles for devices with a maximum screen width of 1000px */
@@ -72,29 +72,29 @@
 @media only screen and (max-width: 500px) {
     .navbarfixed {
         display: flex;
-        justify-content: center; /* Center the navbar horizontally */
-        align-items: center; /* Center the navbar vertically */
-        width: 100%; /* Ensure the navbar takes full width */
+        justify-content: center; 
+        align-items: center;
+        width: 100%; 
     }
 
     .menu ul {
         display: flex;
-        justify-content: center; /* Center the list items horizontally */
-        align-items: center; /* Center the list items vertically */
-        margin: 0; /* Remove all margins */
-        padding: 0; /* Remove all padding */
-        width: 100%; /* Ensure the ul takes full width */
+        justify-content: center; 
+        align-items: center; 
+        margin: 0; 
+        padding: 0; 
+        width: 100%;
         margin-left: -5vw;
     }
 
     .menu li {
         font-size: 15px;
-        padding: 3.5vw; /* Adjust padding as needed */
-        margin: 0; /* Remove all margins */
-        list-style: none; /* Ensure no bullet points */
+        padding: 3.5vw;
+        margin: 0;
+        list-style: none; 
     }
 
     .signature {
-        display: none; /* Hide the signature on very small screens */
+        display: none; 
     }
 }
