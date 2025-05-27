@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.project-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #131313;
+  min-height: 100vh;
+  padding: 6vw 10vw;
+  gap: 5vw;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.project-image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.project-image {
+  width: 32vw;
+  max-width: 450px;
+  border-radius: 2vw;
+  box-shadow: 0 8px 32px 0 rgba(140, 90, 245, 0.25), 0 1.5px 8px 0 rgba(51, 30, 96, 0.15);
+  object-fit: cover;
+}
+
+.project-info-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.project-title {
+  font-family: 'Jersey 10', cursive;
+  font-size: 3vw;
+  color: #8C5AF5;
+  margin: 0 0 1vw 0;
+  letter-spacing: 2px;
+}
+
+.project-duration {
+  font-size: 1.2vw;
+  color: #fff;
+  background: #8C5AF5;
+  padding: 0.5vw 1.5vw;
+  border-radius: 1vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 1vw;
+  display: inline-block;
+  width: 11.5vw;
+}
+
+.project-description {
+  font-size: 1.3vw;
+  color: #fff;
+  font-weight: 300;
+  margin: 0.5vw 0 1vw 0;
+  line-height: 1.7;
+}
+
+.project-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+  margin-top: 1vw;
+}
+
+.project-tech {
+  background: #8C5AF5;
+  color: #fff;
+  border-radius: 1vw;
+  padding: 0.5vw 1.5vw;
+  font-size: 1.1vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: background 0.2s;
+}
+
+.project-tech:hover {
+  background: #331e60;
+}
+
+.project-image-section.right {
+  order: 10;
+}
+
+.project-info-section {
+  order: 1;
+}
+
+.project-image-section {
+  order: 2;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-page {
+    flex-direction: column;
+    align-items: center;
+    padding: 8vw 2vw;
+    gap: 4vw;
+  }
+  .project-image {
+    width: 80vw;
+    max-width: 90vw;
+    border-radius: 4vw;
+  }
+  .project-title {
+    font-size: 7vw;
+  }
+  .project-duration {
+    font-size: 3vw;
+    padding: 1vw 3vw;
+    border-radius: 3vw;
+  }
+  .project-description {
+    font-size: 3vw;
+  }
+  .project-tech {
+    font-size: 3vw;
+    padding: 1vw 3vw;
+    border-radius: 3vw;
+  }
+}

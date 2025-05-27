@@ -1,5 +1,5 @@
 import '../../src/pages/aboutme.scss'
-import me from "./../assets/photo_2025-02-02_12-31-01.jpg"
+import me from "./../assets/avatar.png"
 
 function About() {
   
