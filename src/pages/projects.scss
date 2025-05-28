@@ -69,6 +69,28 @@
     margin-right: 1vw;
 }
 
+.project-card {
+  cursor: pointer;
+  transition: 
+    transform 0.18s cubic-bezier(.4,2,.6,1),
+    box-shadow 0.18s cubic-bezier(.4,2,.6,1),
+    background 0.18s;
+  box-shadow: 0 4px 24px 0 rgba(140, 90, 245, 0.10), 0 1.5px 8px 0 rgba(51, 30, 96, 0.10);
+  outline: none;
+}
+
+.project-card:hover, .project-card:focus-visible {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 8px 32px 0 #8C5AF5, 0 2px 12px 0 #331e60;
+  background: #18122B;
+}
+
+.project-card:active {
+  transform: scale(0.97) rotate(1deg);
+  box-shadow: 0 2px 8px 0 #8C5AF5, 0 1px 4px 0 #331e60;
+  background: #2d1e4a;
+}
+
 @media only screen and (max-width: 1000px) {
     /* styles for devices with a maximum screen width of 1000px */
     .mylatest {

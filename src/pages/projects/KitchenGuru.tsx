@@ -1,11 +1,11 @@
 import ProjectDisplay from '../../components/projectdisplay';
 import kitchenGuruImg from '../../assets/cooking.png';
 import kitchenGuruVideo from '../../assets/kt.mp4';
-import kt1 from '../../assets/ktphotos/IMG_7362.png';
-import kt2 from '../../assets/ktphotos/IMG_7408.png';
-import kt3 from '../../assets/ktphotos/IMG_7421.png';
-import kt4 from '../../assets/ktphotos/IMG_7429.png';
-import kt5 from '../../assets/ktphotos/photo_2025-05-27_22-34-07.png';
+import kt5 from '../../assets/ktphotos/IMG_7362.png';
+import kt1 from '../../assets/ktphotos/IMG_7408.png';
+import kt4 from '../../assets/ktphotos/IMG_7421.png';
+import kt2 from '../../assets/ktphotos/IMG_7429.png';
+import kt3 from '../../assets/ktphotos/photo_2025-05-27_22-34-07.png';
 import reportFile from '../../assets/FAF.BDA21.1_Team18_Final_Report.pdf';
 import '../projects/kitchenGuru.scss';
 
@@ -42,7 +42,7 @@ function KitchenGuru() {
         </video>
         <div className="project-links">
           <a
-            href="https://github.com/Bostan-Victor/ParkingGuruFront"
+            href="https://github.com/gEoNNNN/kt-guru"
             target="_blank"
             rel="noopener noreferrer"
             className="github-btn"
