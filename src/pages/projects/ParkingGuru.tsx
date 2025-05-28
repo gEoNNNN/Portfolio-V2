@@ -1,11 +1,12 @@
 import ProjectDisplay from '../../components/projectdisplay';
 import parkingGuruImg from '../../assets/parking.png';
 import parkingGuruVideo from '../../assets/pk.mp4'; 
-import pg1 from '../../assets/pkphotos/photo_2024-10-02_13-08-38.png'; 
+import pg5 from '../../assets/pkphotos/photo_2024-10-02_13-08-38.png'; 
 import pg2 from '../../assets/pkphotos/photo_2024-10-02_13-08-40.png';
 import pg3 from '../../assets/pkphotos/photo_2024-10-02_13-08-42.png';
 import pg4 from '../../assets/pkphotos/photo_2024-10-02_13-08-43.png';
-import pg5 from '../../assets/pkphotos/photo_2024-10-02_13-08-38.png';
+import pg1 from '../../assets/pkphotos/photo_2024-10-02_13-08-44.png';
+import reportFile from '../../assets/FAF.BDA21.1_Team18_Final_Report.pdf';
 
 const pgImages = [pg1, pg2, pg3, pg4, pg5];
 
@@ -38,16 +39,28 @@ function ParkingGuru() {
           <source src={parkingGuruVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <a
-          href="https://github.com/Bostan-Victor/ParkingGuruFront"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="github-btn"
-        >
-          <button>
-            <span className="github-icon">🐙</span> View on GitHub
-          </button>
-        </a>
+        <div className="project-links">
+          <a
+            href="https://github.com/Bostan-Victor/ParkingGuruFront"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github-btn"
+          >
+            <button>
+              <span className="github-icon">🐙</span> View on GitHub
+            </button>
+          </a>
+          <a
+            href={reportFile}
+            download="ParkingGuru_Report.pdf"
+            className="download-btn"
+            style={{ textDecoration: 'none' }}
+          >
+            <button>
+              <span className="project-link-icon">📄</span> Download Report
+            </button>
+          </a>
+        </div>
       </div>
     </>
   );

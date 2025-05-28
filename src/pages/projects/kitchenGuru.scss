@@ -31,17 +31,28 @@
   background: #212121;
 }
 
+.project-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  justify-content: center;
+  margin-top: 2vw;
+  align-items: center;
+}
+
 .github-btn {
   text-decoration: none;
 }
 
-.github-btn button {
+.github-btn button,
+.download-btn button {
   background-color: #8C5AF5;
   color: white;
   font-family: 'Jersey 10', cursive;
   letter-spacing: 2px;
   padding: 1vw 3vw;
   font-size: 1.5vw;
+  height: 5vw;
   border: none;
   border-radius: 2vw;
   cursor: pointer;
@@ -49,9 +60,13 @@
   display: flex;
   align-items: center;
   gap: 1vw;
+  outline: none;
+  min-width: 220px; /* Ensures both buttons have the same minimum width */
+  justify-content: center;
 }
 
-.github-btn button:hover {
+.github-btn button:hover,
+.download-btn button:hover {
   background-color: #331e60;
   transform: scale(1.08);
 }
@@ -92,10 +107,16 @@
     max-width: 98vw;
     border-radius: 4vw;
   }
-  .github-btn button {
+  .project-links {
+    flex-direction: column;
+    gap: 4vw;
+  }
+  .github-btn button,
+  .download-btn button {
     font-size: 4vw;
     padding: 2vw 6vw;
     border-radius: 4vw;
+    min-width: 60vw;
   }
   .github-icon {
     font-size: 5vw;

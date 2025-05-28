@@ -6,6 +6,7 @@ import kt2 from '../../assets/ktphotos/IMG_7408.png';
 import kt3 from '../../assets/ktphotos/IMG_7421.png';
 import kt4 from '../../assets/ktphotos/IMG_7429.png';
 import kt5 from '../../assets/ktphotos/photo_2025-05-27_22-34-07.png';
+import reportFile from '../../assets/FAF.BDA21.1_Team18_Final_Report.pdf';
 import '../projects/kitchenGuru.scss';
 
 const ktImages = [kt1, kt2, kt3, kt4, kt5];
@@ -39,16 +40,28 @@ function KitchenGuru() {
           <source src={kitchenGuruVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <a
-          href="https://github.com/Bostan-Victor/ParkingGuruFront"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="github-btn"
-        >
-          <button>
-            <span className="github-icon">🐙</span> View on GitHub
-          </button>
-        </a>
+        <div className="project-links">
+          <a
+            href="https://github.com/Bostan-Victor/ParkingGuruFront"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github-btn"
+          >
+            <button>
+              <span className="github-icon">🐙</span> View on GitHub
+            </button>
+          </a>
+          <a
+            href={reportFile}
+            download="KitchenGuru_Report.pdf"
+            className="download-btn"
+            style={{ textDecoration: 'none' }}
+          >
+            <button>
+              <span className="project-link-icon">📄</span> Download Report
+            </button>
+          </a>
+        </div>
       </div>
     </>
   );
