@@ -6,9 +6,10 @@ interface ProjectDisplayProps {
   duration: string;
   technologies: string[];
   image: string;
+  collaborators?: string[];
 }
 
-function ProjectDisplay({ name, description, duration, technologies, image }: ProjectDisplayProps) {
+function ProjectDisplay({ name, description, duration, technologies, image, collaborators }: ProjectDisplayProps) {
   return (
     <div className="project-page">
       <div className="project-image-section">
@@ -16,7 +17,17 @@ function ProjectDisplay({ name, description, duration, technologies, image }: Pr
       </div>
       <div className="project-info-section">
         <h1 className="project-title">{name}</h1>
-        <span className="project-duration">{duration}</span>
+        <div className="project-meta-row">
+          <span className="project-duration">{duration}</span>
+          {collaborators && collaborators.length > 0 && (
+            <div className="project-collaborators">
+              <span className="collab-label">Collaborators:</span>
+              {collaborators.map((collab, idx) => (
+                <span className="collab-name" key={idx}>{collab}</span>
+              ))}
+            </div>
+          )}
+        </div>
         <p className="project-description">{description}</p>
         <div className="project-tech-stack">
           {technologies.map((tech, idx) => (

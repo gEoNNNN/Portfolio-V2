@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.project-media-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -14vw;
+  margin-bottom: 4vw;
+  gap: 2vw;
+}
+
+.media-title {
+  font-family: 'Jersey 10', cursive;
+  color: white;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.media-title .highlight {
+  color: #8C5AF5;
+}
+
+.project-video {
+  width: 60vw;
+  max-width: 800px;
+  border-radius: 2vw;
+  box-shadow: 0 8px 32px 0 rgba(140, 90, 245, 0.25), 0 1.5px 8px 0 rgba(51, 30, 96, 0.15);
+  margin-bottom: 2vw;
+  background: #212121;
+}
+
+.github-btn {
+  text-decoration: none;
+}
+
+.github-btn button {
+  background-color: #8C5AF5;
+  color: white;
+  font-family: 'Jersey 10', cursive;
+  letter-spacing: 2px;
+  padding: 1vw 3vw;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 2vw;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.github-btn button:hover {
+  background-color: #331e60;
+  transform: scale(1.08);
+}
+
+.github-icon {
+  font-size: 2vw;
+}
+
+.project-images-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
+.project-gallery-img {
+  width: 18vw;
+  max-width: 240px;
+  border-radius: 1.5vw;
+  box-shadow: 0 4px 16px 0 rgba(140, 90, 245, 0.18), 0 1px 4px 0 rgba(51, 30, 96, 0.10);
+  object-fit: cover;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: #212121;
+}
+
+.project-gallery-img:hover {
+  transform: scale(1.04) rotate(-1deg);
+  box-shadow: 0 8px 32px 0 #8C5AF5, 0 2px 12px 0 #331e60;
+}
+
+@media only screen and (max-width: 1000px) {
+  .media-title {
+    font-size: 6vw;
+  }
+  .project-video {
+    width: 90vw;
+    max-width: 98vw;
+    border-radius: 4vw;
+  }
+  .github-btn button {
+    font-size: 4vw;
+    padding: 2vw 6vw;
+    border-radius: 4vw;
+  }
+  .github-icon {
+    font-size: 5vw;
+  }
+  .project-images-gallery {
+    gap: 4vw;
+  }
+  .project-gallery-img {
+    width: 40vw;
+    max-width: 90vw;
+    border-radius: 4vw;
+    margin-bottom: 2vw;
+  }
+}
