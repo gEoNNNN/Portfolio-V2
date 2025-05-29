@@ -19,8 +19,8 @@ function CasinoGames() {
       <ProjectDisplay
         name="Casino Games"
         description="Casino Games is a fun and interactive casino simulation website for casual entertainment and gameplay. The platform features a variety of classic casino games, engaging visuals, and a user-friendly interface, providing an enjoyable experience for users looking to try their luck in a safe, virtual environment."
-        duration="Apr 2024 - May 2024"
-        technologies={['React', 'TypeScript', 'Sass']}
+        duration="Apr 2025 - May 2025"
+        technologies={['React', 'TypeScript', 'Tailwind CSS']}
         image={casinoImg}
       />
       <div className="casino-media-section">
