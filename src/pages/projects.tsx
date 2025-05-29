@@ -95,6 +95,16 @@ function Projects() {
             className='card project-card'
             tabIndex={0}
             style={{ cursor: 'not-allowed', opacity: 0.7 }}
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              navigate('/Casino');
+            }}
+            onKeyDown={e => {
+              if (e.key === 'Enter') {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                navigate('/Casino');
+              }
+            }}
           >
             <p>👾</p>
             <h1>Casino Games</h1>
