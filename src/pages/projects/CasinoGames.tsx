@@ -49,7 +49,7 @@ function CasinoGames() {
             </button>
           </a>
           <a
-            href="https://casino-games-demo-link.com"
+            href="https://chimerical-tarsier-a5f927.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link-btn"
