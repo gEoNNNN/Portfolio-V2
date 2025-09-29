@@ -6,6 +6,69 @@
   --text-secondary: #ccc;
 }
 
+.project-media-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -14vw;
+  margin-bottom: 4vw;
+  gap: 2vw;
+}
+
+.media-title {
+  font-family: 'Jersey 10', cursive;
+  color: white;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.media-title .highlight {
+  color: #8C5AF5;
+}
+
+.project-links {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.github-btn,
+.live-demo-btn {
+  text-decoration: none !important;
+}
+
+.github-btn button,
+.live-demo-btn button {
+  background-color: #8C5AF5;
+  color: white;
+  font-family: 'Jersey 10', cursive;
+  letter-spacing: 2px;
+  padding: 1vw 3vw;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 2vw;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  outline: none;
+}
+
+.github-btn button:hover,
+.live-demo-btn button:hover {
+  background-color: #331e60;
+  transform: scale(1.08);
+}
+
+.github-icon,
+.project-link-icon {
+  font-size: 2vw;
+}
+
 .solutions-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -143,6 +206,27 @@
 }
 
 @media (max-width: 768px) {
+  .media-title {
+    font-size: 6vw;
+  }
+  
+  .project-links {
+    flex-direction: column;
+    gap: 4vw;
+  }
+  
+  .github-btn button,
+  .live-demo-btn button {
+    font-size: 4vw;
+    padding: 2vw 6vw;
+    border-radius: 4vw;
+  }
+  
+  .github-icon,
+  .project-link-icon {
+    font-size: 5vw;
+  }
+  
   .solutions-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;

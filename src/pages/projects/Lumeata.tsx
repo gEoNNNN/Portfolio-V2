@@ -7,11 +7,11 @@ function Lumeata() {
     <>
       <ProjectDisplay
         name="Lumeata"
-        description="Lumeata is a comprehensive travel website designed to help small businesses connect travelers with unique local experiences. The platform offers personalized travel recommendations, local tour bookings, and authentic cultural experiences. Users can discover hidden gems, book guided tours with local experts, and access insider tips for memorable trips. The website features interactive maps, user reviews, secure booking systems, and multilingual support to cater to international travelers seeking authentic local adventures."
-        duration="Jan 2024 - Mar 2024"
-        technologies={['React', 'TypeScript', 'Node.js', 'MongoDB', 'Stripe API']}
+        description="Lumeata is a comprehensive travel website designed to help travelers with unique experiences. The platform offers personalized travel recommendations, tour bookings, and authentic cultural experiences. Users can discover hidden gems, book guided tours with local experts, and access insider tips for memorable trips. The website features interactive maps, user reviews, secure booking systems, and multilingual support to cater to international travelers seeking authentic local adventures."
+        duration="Jul 2025 - Jul 2025"
+        technologies={['React', 'JavaScript', 'CSS']}
         image={lumeataImg}
-        collaborators={['Travel Solutions Ltd']}
+        collaborators={['Lumea Ta']}
       />
       <div className="project-media-section">
         <h1 className="media-title">
