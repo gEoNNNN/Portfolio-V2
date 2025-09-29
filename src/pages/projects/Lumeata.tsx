@@ -1,5 +1,5 @@
 import ProjectDisplay from '../../components/projectdisplay';
-import lumeataImg from '../../assets/lumeata.svg';
+import lumeataImg from '../../assets/lumea ta.jpg';
 import '../projects/Lumeata.scss';
 
 function Lumeata() {
@@ -15,29 +15,11 @@ function Lumeata() {
       />
       <div className="project-media-section">
         <h1 className="media-title">
-          Some <span className="highlight">features</span> of the project
+          Links :
         </h1>
-        <div className="project-features">
-          <div className="feature-item">
-            <h3>🗺️ Interactive Maps</h3>
-            <p>Explore destinations with detailed interactive maps showing local attractions, restaurants, and hidden gems.</p>
-          </div>
-          <div className="feature-item">
-            <h3>📅 Easy Booking</h3>
-            <p>Simple and secure booking system for tours, activities, and local experiences with instant confirmation.</p>
-          </div>
-          <div className="feature-item">
-            <h3>👥 Local Guides</h3>
-            <p>Connect with certified local guides who provide authentic cultural experiences and insider knowledge.</p>
-          </div>
-          <div className="feature-item">
-            <h3>🌍 Multilingual Support</h3>
-            <p>Available in multiple languages to serve international travelers from around the world.</p>
-          </div>
-        </div>
         <div className="project-links">
           <a
-            href="https://github.com/gEoNNNN/lumeata"
+            href="https://github.com/gEoNNNN/lumea-mea"
             target="_blank"
             rel="noopener noreferrer"
             className="github-btn"
@@ -47,7 +29,7 @@ function Lumeata() {
             </button>
           </a>
           <a
-            href="https://lumeata-demo.vercel.app"
+            href="https://lumeata.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="live-demo-btn"
