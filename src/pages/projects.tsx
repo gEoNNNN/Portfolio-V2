@@ -173,6 +173,26 @@ function Projects() {
             <h2>A professional landing page for a roofing company specializing in quality materials and installation services.</h2>
           </div>
         </li>
+        <li>
+          <div
+            className='card project-card'
+            tabIndex={0}
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              navigate('/NexaWorks');
+            }}
+            onKeyDown={e => {
+              if (e.key === 'Enter') {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                navigate('/NexaWorks');
+              }
+            }}
+          >
+            <p>⚡</p>
+            <h1>NexaWorks</h1>
+            <h2>A modern web landing page for a digital agency with Three.js animations and EmailJS integration.</h2>
+          </div>
+        </li>
       </ul>
     </div>
   )

@@ -9,7 +9,7 @@ function DigitalGrowSolutions() {
         name="DigitalGrow Solutions"
         description="DigitalGrow Solutions is a comprehensive IT company website specializing in web development and AI chatbot solutions for businesses. The platform showcases modern web design services, custom website development, and intelligent chatbot integration to help companies enhance their digital presence and customer engagement. Features include service portfolios, case studies, client testimonials, and an interactive chatbot demonstration. The website emphasizes cutting-edge technology solutions tailored to meet diverse business needs in the digital transformation era."
         duration="Aug 2025 - Aug 2025"
-        technologies={['React', 'TypeScript', 'CSS']}
+        technologies={['React', 'TypeScript', 'CSS', "Vite"]}
         image={digitalGrowImg}
         collaborators={['DigitalGrowSolutions']}
       />

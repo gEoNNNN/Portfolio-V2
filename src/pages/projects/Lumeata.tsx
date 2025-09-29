@@ -9,7 +9,7 @@ function Lumeata() {
         name="Lumeata"
         description="Lumeata is a comprehensive travel website designed to help travelers with unique experiences. The platform offers personalized travel recommendations, tour bookings, and authentic cultural experiences. Users can discover hidden gems, book guided tours with local experts, and access insider tips for memorable trips. The website features interactive maps, user reviews, secure booking systems, and multilingual support to cater to international travelers seeking authentic local adventures."
         duration="Jul 2025 - Jul 2025"
-        technologies={['React', 'JavaScript', 'CSS']}
+        technologies={['React', 'JavaScript', 'CSS', "Vite"]}
         image={lumeataImg}
         collaborators={['Lumea Ta']}
       />

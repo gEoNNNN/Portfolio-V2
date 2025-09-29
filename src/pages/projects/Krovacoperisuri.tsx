@@ -9,7 +9,7 @@ function Krovacoperisuri() {
         name="Krovacoperisuri"
         description="Krovacoperisuri is a professional landing page designed for a specialized roofing company that provides high-quality roofing materials and installation services. The website showcases the company's extensive range of roofing solutions, including traditional tiles, modern materials, gutters, and accessories. Features include detailed product catalogs, installation galleries, customer testimonials, and easy contact forms for quotes. The responsive design ensures optimal viewing across all devices while highlighting the company's expertise and reliability in the roofing industry."
         duration="Jun 2025 - Jun 20245"
-        technologies={['HTML', 'CSS', 'JavaScript', 'React']}
+        technologies={['HTML', 'CSS', 'JavaScript', 'React', "Vite"]}
         image={krovacoperisurImg}
         collaborators={['Krovacoperisuri SRL']}
       />

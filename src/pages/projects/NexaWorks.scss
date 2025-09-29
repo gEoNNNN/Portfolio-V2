@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --card-background: #212121;
+  --border-color: #333;
+  --accent-color: #8C5AF5;
+  --text-primary: white;
+  --text-secondary: #ccc;
+}
+
+.project-media-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -14vw;
+  margin-bottom: 4vw;
+  gap: 2vw;
+}
+
+.media-title {
+  font-family: 'Jersey 10', cursive;
+  color: white;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.media-title .highlight {
+  color: #8C5AF5;
+}
+
+.project-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.feature-item {
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover::before {
+  transform: scaleX(1);
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(140, 90, 245, 0.15);
+  border-color: var(--accent-color);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.feature-item h3 {
+  color: var(--text-primary);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.feature-item p {
+  color: var(--text-secondary);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.github-btn,
+.live-demo-btn {
+  text-decoration: none !important;
+}
+
+.github-btn button,
+.live-demo-btn button {
+  background-color: #8C5AF5;
+  color: white;
+  font-family: 'Jersey 10', cursive;
+  letter-spacing: 2px;
+  padding: 1vw 3vw;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 2vw;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  outline: none;
+}
+
+.github-btn button:hover,
+.live-demo-btn button:hover {
+  background-color: #331e60;
+  transform: scale(1.08);
+}
+
+.github-icon,
+.project-link-icon {
+  font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+  .media-title {
+    font-size: 6vw;
+  }
+  
+  .project-features {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .feature-item {
+    padding: 1.5rem;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.2rem;
+  }
+  
+  .feature-item p {
+    font-size: 0.9rem;
+  }
+  
+  .project-links {
+    flex-direction: column;
+    gap: 4vw;
+  }
+  
+  .github-btn button,
+  .live-demo-btn button {
+    font-size: 4vw;
+    padding: 2vw 6vw;
+    border-radius: 4vw;
+  }
+  
+  .github-icon,
+  .project-link-icon {
+    font-size: 5vw;
+  }
+}

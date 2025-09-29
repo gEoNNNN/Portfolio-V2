@@ -10,6 +10,7 @@ import Casino from './pages/projects/CasinoGames.tsx'
 import Lumeata from './pages/projects/Lumeata.tsx';
 import Krovacoperisuri from './pages/projects/Krovacoperisuri.tsx';
 import DigitalGrowSolutions from './pages/projects/DigitalGrowSolutions.tsx';
+import NexaWorks from './pages/projects/NexaWorks.tsx';
 
 const router = createBrowserRouter([
   { path: '', element: <App /> },
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
   { path: '/Casino', element: <Casino /> },
   { path: '/Lumeata', element: <Lumeata /> },
   { path: '/Krovacoperisuri', element: <Krovacoperisuri /> },
-  { path: '/DigitalGrowSolutions', element: <DigitalGrowSolutions /> }
+  { path: '/DigitalGrowSolutions', element: <DigitalGrowSolutions /> },
+  { path: '/NexaWorks', element: <NexaWorks /> }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
