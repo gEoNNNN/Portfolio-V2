@@ -7,6 +7,9 @@ import ParkingGuru from './pages/projects/ParkingGuru.tsx';
 import VintageVault from './pages/projects/VintageVault.tsx';
 import COFFEEBOX from './pages/projects/COFFEEBOX.tsx'
 import Casino from './pages/projects/CasinoGames.tsx'
+import Lumeata from './pages/projects/Lumeata.tsx';
+import Krovacoperisuri from './pages/projects/Krovacoperisuri.tsx';
+import DigitalGrowSolutions from './pages/projects/DigitalGrowSolutions.tsx';
 
 const router = createBrowserRouter([
   { path: '', element: <App /> },
@@ -14,7 +17,10 @@ const router = createBrowserRouter([
   { path: '/ParkingGuru', element: <ParkingGuru /> },
   { path: '/VintageVault', element: <VintageVault /> },
   { path: '/COFFEEBOX', element: <COFFEEBOX /> },
-  { path: '/Casino', element: <Casino /> }
+  { path: '/Casino', element: <Casino /> },
+  { path: '/Lumeata', element: <Lumeata /> },
+  { path: '/Krovacoperisuri', element: <Krovacoperisuri /> },
+  { path: '/DigitalGrowSolutions', element: <DigitalGrowSolutions /> }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

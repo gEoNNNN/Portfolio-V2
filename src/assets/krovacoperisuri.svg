@@ -1,0 +1,18 @@
+<!-- This is a placeholder SVG image for Krovacoperisuri project -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="roofGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#f7931e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#roofGradient)"/>
+  <!-- House silhouette -->
+  <polygon points="50,200 200,100 350,200 350,250 50,250" fill="#ffffff" opacity="0.2"/>
+  <!-- Roof tiles pattern -->
+  <rect x="60" y="110" width="280" height="8" fill="#ffffff" opacity="0.3"/>
+  <rect x="60" y="125" width="280" height="8" fill="#ffffff" opacity="0.3"/>
+  <rect x="60" y="140" width="280" height="8" fill="#ffffff" opacity="0.3"/>
+  <text x="200" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">🏠 Krovacoperisuri</text>
+  <text x="200" y="190" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">Roofing Solutions</text>
+</svg>
