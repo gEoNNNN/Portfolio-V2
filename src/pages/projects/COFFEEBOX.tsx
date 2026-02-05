@@ -42,7 +42,7 @@ function COFFEEBOX() {
             </button>
           </a>
           <a
-            href="https://hilarious-conkies-b8852e.netlify.app/"
+            href="https://coffee-box.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link-btn"

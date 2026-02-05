@@ -45,7 +45,7 @@ function VintageVault() {
             </button>
           </a>
           <a
-            href="https://super-treacle-7c7a12.netlify.app/"
+            href="https://vintage-vault-flax.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link-btn"

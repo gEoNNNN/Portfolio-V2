@@ -50,7 +50,7 @@ function NexaWorks() {
             </button>
           </a>
           <a
-            href="https://nexaworksproject.netlify.app/"
+            href="https://digital-grow-project.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="live-demo-btn"

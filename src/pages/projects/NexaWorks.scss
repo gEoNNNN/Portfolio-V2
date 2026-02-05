@@ -115,6 +115,7 @@
   letter-spacing: 2px;
   padding: 1vw 3vw;
   font-size: 1.5vw;
+  height: 5vw;
   border: none;
   border-radius: 2vw;
   cursor: pointer;
@@ -123,6 +124,8 @@
   align-items: center;
   gap: 1vw;
   outline: none;
+  min-width: 220px;
+  justify-content: center;
 }
 
 .github-btn button:hover,
