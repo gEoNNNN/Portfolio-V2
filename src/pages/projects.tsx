@@ -6,69 +6,71 @@ function Projects() {
 
   return (
     <div className='projects'>
-      <p className='mylatest'>My working <span className="highlight">products</span> </p>
-      <ul>
-       <li>
-          <div
-            className='card project-card'
-            tabIndex={0}
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-              navigate('/DigitalGrowSolutions');
-            }}
-            onKeyDown={e => {
-              if (e.key === 'Enter') {
+      <div className='working'>
+        <p className='mylatest'>My working <span className="highlight">products</span> </p>
+        <ul>
+        <li>
+            <div
+              className='card project-card'
+              tabIndex={0}
+              onClick={() => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 navigate('/DigitalGrowSolutions');
-              }
-            }}
-          >
-            <p>💻</p>
-            <h1>Digital Grow</h1>
-            <h2>An IT company website specializing in web development and AI chatbot solutions for businesses.</h2>
-          </div>
-        </li>
-        <li>
-          <div
-            className='card project-card'
-            tabIndex={0}
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-              navigate('/Krovacoperisuri');
-            }}
-            onKeyDown={e => {
-              if (e.key === 'Enter') {
+              }}
+              onKeyDown={e => {
+                if (e.key === 'Enter') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  navigate('/DigitalGrowSolutions');
+                }
+              }}
+            >
+              <p>💻</p>
+              <h1>Digital Grow</h1>
+              <h2>An IT company website specializing in web development and AI chatbot solutions for businesses.</h2>
+            </div>
+          </li>
+          <li>
+            <div
+              className='card project-card'
+              tabIndex={0}
+              onClick={() => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 navigate('/Krovacoperisuri');
-              }
-            }}
-          >
-            <p>🏠</p>
-            <h1>KrovAcoperis</h1>
-            <h2>A professional landing page for a roofing company specializing in quality materials and installation services.</h2>
-          </div>
-        </li>
-        <li>
-          <div
-            className='card project-card'
-            tabIndex={0}
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-              navigate('/Lumeata');
-            }}
-            onKeyDown={e => {
-              if (e.key === 'Enter') {
+              }}
+              onKeyDown={e => {
+                if (e.key === 'Enter') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  navigate('/Krovacoperisuri');
+                }
+              }}
+            >
+              <p>🏠</p>
+              <h1>KrovAcoperis</h1>
+              <h2>A professional landing page for a roofing company specializing in quality materials and installation services.</h2>
+            </div>
+          </li>
+          <li>
+            <div
+              className='card project-card'
+              tabIndex={0}
+              onClick={() => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
                 navigate('/Lumeata');
-              }
-            }}
-          >
-            <p>✈️</p>
-            <h1>Lumea Ta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
-            <h2>A comprehensive travel website helping small businesses connect travelers with unique local experiences.</h2>
-          </div>
-        </li>
-      </ul>
+              }}
+              onKeyDown={e => {
+                if (e.key === 'Enter') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  navigate('/Lumeata');
+                }
+              }}
+            >
+              <p>✈️</p>
+              <h1>Lumea Ta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+              <h2>A comprehensive travel website helping small businesses connect travelers with unique local experiences.</h2>
+            </div>
+          </li>
+        </ul>
+      </div>
       <p className='mylatest'>My latest <span className="highlight">projects</span> </p>
       <ul>
         <li>

@@ -1,6 +1,6 @@
 import '../../src/pages/mainpage.scss';
 import Navbar from './../components/navbar';
-import cvFile from '../../src/assets/CV - Eugen Ostafi.pdf'; // Adjust the path to your file
+import cvFile from '../../src/assets/CV - Eugen Ostafi.pdf'; 
 
 function Mainpage() {
   return (
@@ -12,7 +12,7 @@ function Mainpage() {
         <h1 className='developer'>front-end web developer</h1>
       </div>
       <div className='cv'>
-        <a href={cvFile} download="My-CV.pdf">
+        <a href={cvFile} download="CV - Eugen Ostafi.pdf">
           <button>Download my CV</button>
         </a>
       </div>
