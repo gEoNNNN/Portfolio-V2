@@ -29,7 +29,7 @@ function Lumeata() {
             </button>
           </a>
           <a
-            href="https://lumea-mea.vercel.app/maroc"
+            href="https://lumea-mea.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="live-demo-btn"
