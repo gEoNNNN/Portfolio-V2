@@ -2,7 +2,7 @@ import { useEffect, useRef, type MouseEvent } from 'react';
 import '../../src/pages/mainpage.scss';
 import ParticleField from './../components/ParticleField';
 import CursorGlow from './../components/CursorGlow';
-import cvFile from '../../src/assets/MyCV.pdf'; 
+import cvFile from '../../src/assets/MyCVFinish.pdf'; 
 
 function splitLetters(text: string, baseDelay: number) {
   return text.split('').map((ch, i) => (
