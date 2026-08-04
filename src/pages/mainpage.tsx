@@ -1,9 +1,8 @@
 import { useEffect, useRef, type MouseEvent } from 'react';
 import '../../src/pages/mainpage.scss';
-import Navbar from './../components/navbar';
 import ParticleField from './../components/ParticleField';
 import CursorGlow from './../components/CursorGlow';
-import cvFile from '../../src/assets/CV - Eugen Ostafi.pdf'; 
+import cvFile from '../../src/assets/MyCV.pdf'; 
 
 function splitLetters(text: string, baseDelay: number) {
   return text.split('').map((ch, i) => (
@@ -76,7 +75,6 @@ function Mainpage() {
       <CursorGlow />
       <div className="blob blob-a" aria-hidden="true" />
       <div className="blob blob-b" aria-hidden="true" />
-      <Navbar />
       <div className='hero' ref={heroRef}>
         <div className='text'>
           <h1 className='hi'>Hi <span className='wave'>👋</span></h1>
@@ -84,7 +82,7 @@ function Mainpage() {
           <h1 className='developer'>{splitLetters('front-end web developer', 420)}</h1>
         </div>
         <div className='cv'>
-          <a href={cvFile} download="CV - Eugen Ostafi.pdf">
+          <a href={cvFile} download="My-CV.pdf">
             <button
               ref={btnRef}
               onMouseMove={magnetize}

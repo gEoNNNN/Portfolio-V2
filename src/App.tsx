@@ -1,6 +1,7 @@
 
 import '../src/app.scss';
 import Mainpage from './../src/pages/mainpage';
+import Navbar from './components/navbar';
 import About from './pages/aboutme';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <body ref={rootRef}>
+      <Navbar />
       <section id="home"> {/* Added id for Home */}
         <Mainpage />
       </section>
