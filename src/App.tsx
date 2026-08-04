@@ -4,10 +4,13 @@ import Mainpage from './../src/pages/mainpage';
 import About from './pages/aboutme';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
+import { useReveal } from './hooks/useReveal';
 
 function App() {
+  const rootRef = useReveal<HTMLBodyElement>();
+
   return (
-    <body>
+    <body ref={rootRef}>
       <section id="home"> {/* Added id for Home */}
         <Mainpage />
       </section>

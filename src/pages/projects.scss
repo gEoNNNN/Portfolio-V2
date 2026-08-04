@@ -1,20 +1,11 @@
-.card {
-    width: 21vw;
-    height: 11.8vw;
-    border-radius: 2vw;
-    background: #212121;
-    box-shadow: 15px 15px 30px rgb(51, 30, 96),
-                -15px -15px 30px rgb(140, 90, 245);
-}
-
 .working {
     margin-bottom: -10vw;
 }
 
-.working p {           
+.working p {
   display: flex;
-  justify-content: center; 
-  align-items: center;  
+  justify-content: center;
+  align-items: center;
 }
 
 .mylatest {
@@ -41,8 +32,6 @@
     margin-bottom: 2vw; // space between rows
 }
 
-
-
 .projects li {
     font-family: 'Open Sans';
     font-weight: 300;
@@ -54,55 +43,7 @@
     text-decoration: none;
 }
 
-.card h1 {
-    margin-right: 10vw;
-    color: white;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 1.5vw;
-    margin-top: -2vh;
-}
-.card p {
-    font-size: 1.5vw;
-    margin-right: 17vw;
-    padding-top: 1vh;
-}
-
-.card h2 {
-    color: white;
-    font-family: 'Open Sans';
-    font-weight: 100;
-    font-size: 1vw;
-    text-wrap: wrap;
-    text-align: left;
-    margin-left: 1vw;
-    margin-right: 1vw;
-}
-
-.project-card {
-  cursor: pointer;
-  transition: 
-    transform 0.18s cubic-bezier(.4,2,.6,1),
-    box-shadow 0.18s cubic-bezier(.4,2,.6,1),
-    background 0.18s;
-  box-shadow: 0 4px 24px 0 rgba(140, 90, 245, 0.10), 0 1.5px 8px 0 rgba(51, 30, 96, 0.10);
-  outline: none;
-}
-
-.project-card:hover, .project-card:focus-visible {
-  transform: scale(1.05) rotate(-1deg);
-  box-shadow: 0 8px 32px 0 #8C5AF5, 0 2px 12px 0 #331e60;
-  background: #18122B;
-}
-
-.project-card:active {
-  transform: scale(0.97) rotate(1deg);
-  box-shadow: 0 2px 8px 0 #8C5AF5, 0 1px 4px 0 #331e60;
-  background: #2d1e4a;
-}
-
 @media only screen and (max-width: 1000px) {
-    /* styles for devices with a maximum screen width of 1000px */
     .mylatest {
         font-size: 7vw;
         margin-left: 0vw;
@@ -118,34 +59,4 @@
     .projects li {
         padding: 10px;
     }
-    .card {
-        width: 70vw;
-        height: 40vw;
-    }
-
-    .card h1 {
-        margin-right: 40vw;
-        color: white;
-        font-family: 'Open Sans';
-        font-weight: 400;
-        font-size: 4vw;
-        margin-top: -1vh;
-    }
-    .card p {
-        font-size: 4vw;
-        margin-right: 58vw;
-        padding-top: 1.5vh;
-    }
-    
-    .card h2 {
-        color: white;
-        font-family: 'Open Sans';
-        font-weight: 100;
-        font-size: 3vw;
-        text-wrap: wrap;
-        text-align: left;
-        margin-left: 3vw;
-        margin-right: 1vw;
-    }
-    
 }

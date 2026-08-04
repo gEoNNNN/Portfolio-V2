@@ -24,6 +24,11 @@ function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to="#work" smooth scroll={(el) => scrollWithOffset(el)}>
+              Experience
+            </Link>
+          </li>
+          <li>
             <Link to="#about" smooth scroll={(el) => scrollWithOffset(el)}>
               About
             </Link>

@@ -4,7 +4,9 @@ import { HashLink as Link } from 'react-router-hash-link'; // Import HashLink
 function Contact() {
   return (
     <div className='contact'>
-      <button><p>Keep in <span className="highlight">touch ✉️</span> </p></button>
+      <a href="mailto:eo62115@gmail.com">
+        <button><p>Keep in <span className="highlight">touch ✉️</span> </p></button>
+      </a>
       <div className='socials'>
         <ul>
           <li><Link to="https://www.instagram.com/eugen.ost/">

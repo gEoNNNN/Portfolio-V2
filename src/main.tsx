@@ -11,6 +11,10 @@ import Lumeata from './pages/projects/Lumeata.tsx';
 import Krovacoperisuri from './pages/projects/Krovacoperisuri.tsx';
 import DigitalGrowSolutions from './pages/projects/DigitalGrowSolutions.tsx';
 import NexaWorks from './pages/projects/NexaWorks.tsx';
+import VocalliS from './pages/projects/VocalliS.tsx';
+import ChallangeStore from './pages/projects/ChallangeStore.tsx';
+import RParking from './pages/projects/RParking.tsx';
+import RSistems from './pages/projects/RSistems.tsx';
 
 const router = createBrowserRouter([
   { path: '', element: <App /> },
@@ -22,7 +26,11 @@ const router = createBrowserRouter([
   { path: '/Lumeata', element: <Lumeata /> },
   { path: '/Krovacoperisuri', element: <Krovacoperisuri /> },
   { path: '/DigitalGrowSolutions', element: <DigitalGrowSolutions /> },
-  { path: '/NexaWorks', element: <NexaWorks /> }
+  { path: '/NexaWorks', element: <NexaWorks /> },
+  { path: '/VocalliS', element: <VocalliS /> },
+  { path: '/ChallangeStore', element: <ChallangeStore /> },
+  { path: '/RParking', element: <RParking /> },
+  { path: '/RSistems', element: <RSistems /> }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
